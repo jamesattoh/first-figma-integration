@@ -1,0 +1,108 @@
+//definition des variables pour les couleurs
+$red-highlight: #D2483D;
+$light-grey: #F3F3F3;
+$white: #FFFFFF;
+$black:#000000;
+
+// definition des polices desktop
+
+
+        //definition des mixin : pour les valeurs qui se repetent
+@mixin bebasneue400 {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+@mixin montserrat400 {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+@mixin montserrat600{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+
+        //specification des polices desktop
+
+.bebas-neue-regular-header {
+        @include bebasneue400;
+        font-size: 72;
+        line-height: 86.4;
+} 
+
+
+
+.bebas-neue-regular-title1 {
+        @include bebasneue400;
+        font-size: 24;
+        line-height: 28.8;
+} 
+
+
+
+.montserrat-title2 {
+        @include montserrat400;
+        line-height: 29.26;
+        font-size: 24;
+}
+
+
+.montserrat-bodyHighlight {
+    @include montserrat600;
+    font-size: 20;
+    line-height: 24.38;
+}
+
+
+.montserrat-body {
+    @include montserrat400;
+    font-size: 20;
+    line-height: 24.38;
+    
+}
+
+
+//définition des polices mobile 
+
+.bebas-neue-regular-mobile {
+    @include bebasneue400;
+    font-size: 40;
+    line-height: 48;
+} 
+
+.bebas-neue-regular-title1-mobile {
+    @include bebasneue400;
+    font-size: 20;
+    line-height: 24;
+} 
+
+.montserrat-title2 {
+    @include montserrat400;
+    line-height: 24.38;
+    font-size: 20;
+}
+
+.montserrat-bodyHighlight {
+    @include montserrat600;
+    font-size: 16;
+    line-height: 19.5;
+
+}
+
+
+.montserrat-body {
+    @include montserrat400;
+    font-size: 16;
+    line-height: 19.5;
+    
+}
+
