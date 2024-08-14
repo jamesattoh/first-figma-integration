@@ -1,0 +1,14 @@
+.redSpace {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--white);
+    background-color: var(--red-highlight);
+    justify-content: center;
+    padding: 3.75rem 0 3.75rem 0;
+}
+
+.redSpace__title {
+        font-weight: var(--body-hightlight-font-weight);
+        margin: 0 0 1rem 0;
+}
