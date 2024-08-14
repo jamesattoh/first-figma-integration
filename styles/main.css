@@ -1,12 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Bebas Neue:wght@400;600&display=swap');
 
-/*modules*/
+/*modules et pages*/
 @import '/styles/modules/appBar.css';
 @import '/styles/pages/home.css';
 @import '/styles/modules/cta.css';
 @import '/styles/modules/redSpace.css';
 @import '/styles/modules/footer.css';
 @import '/styles/modules/contactInfo.css';
+@import '/styles/pages/menu.css';
+@import '/styles/pages/contact.css';
 
 /* creation d'un design systeme */
 

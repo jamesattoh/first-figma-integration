@@ -10,39 +10,35 @@
 </head>
 
 <body>
-    <header>
-        <img src="..\assets\logo.svg" alt="logo Yummy Nouilles">
-        <nav>
-            <a href="index.html">Accueil</a>
-            <a href="menu.html">Menu</a>
-            <a href="contact.html">Contact</a>
+    <header class="appBar">
+        <img class="appBar__icon" src="..\assets\logo.svg" alt="logo Yummy Nouilles">
+        <nav class="appBar__nav">
+            <a class="appBar__navItem" href="index.html">Accueil</a>
+            <a class="appBar__navItem" href="menu.html">Menu</a>
+            <a class="appBar__navItem" href="contact.html">Contact</a>
         </nav>
     </header>
 
     <main>
-        <section>
-            <div>
-                <h1>YUMMY NOUILLES</h1>
-                <p>Les nouilles les plus <span>yummy</span> de tout Paris</p>
-                <a href="contact.html">click & collect</a>
+        <section class="hero">
+            <div class="hero__titleContainer">
+                <h1 class="hero__title">YUMMY NOUILLES</h1>
+                <p class="hero__subtitle">Les nouilles les plus <span>yummy</span> de tout Paris</p>
+                <a class="cta" href="contact.html">
+                    Click & Collect
+                </a>
             </div>
     
-            <div><img src="assets/logo.svg" alt="logo Yummy Nouilles"> </div>
+            <div><img class="hero__icon" src="assets/logo.svg" alt="logo Yummy Nouilles"> </div>
         </section>
 
-        <div>
-            <p>Commandez maintenant !</p>
-            <a href="contact.html">
-              Click & Collect
-            </a>
-        </div>
     
-        <section>
-            <h2>Nos adresses</h2>
-            <div>
+        <section class="address">
+            <h2 class="address__title">Nos adresses</h2>
+            <div class="address__carousel">
                 <div>
-                    <img src="..\assets\img\restaurant\yummy-lancry.jpg" alt="Rue de Lancry">
-                    <p>
+                    <img class="address__img" src="..\assets\img\restaurant\yummy-lancry.jpg" alt="Rue de Lancry">
+                    <p class="address__info">
                         <strong>Yummy Noodle</strong><br>
                         185 rue du Lancry<br>
                         75010 Paris
@@ -50,8 +46,8 @@
                 </div>
         
                 <div>
-                    <img src="..\assets\img\restaurant\yummy-guillaume.jpg" alt="Rue de Lancry">
-                    <p>
+                    <img class="address__img" src="..\assets\img\restaurant\yummy-guillaume.jpg" alt="Rue de Lancry">
+                    <p class="address__info">
                         <strong>Yu Noodle My</strong><br>
                         350 rue Saint-Guillaume<br>
                         75007 Paris
@@ -59,8 +55,8 @@
                 </div>
         
                 <div>
-                    <img src="..\assets\img\restaurant\yummy-maire.jpg" alt="Rue de Lancry">
-                    <p>
+                    <img  class="address__img" src="..\assets\img\restaurant\yummy-maire.jpg" alt="Rue de Lancry">
+                    <p class="address__info">
                         <strong>Les Yummy Nouilles</strong><br>
                         208 rue au Maine<br>
                         75003 Paris
@@ -69,34 +65,39 @@
             </div>
         </section>
         
-
+        <div class="redSpace">
+            <p class="redSpace__title">Commandez maintenant !</p>
+            <a class="cta" href="contact.html">
+              Click & Collect
+            </a>
+        </div>
     
-        <section>
-            <h2>Notre savoir-faire</h2>
-            <p>Depuis près de 10 ans maintenant, nous partageons avec vous les meilleures recettes. Nos plats ont tous été
+        <section class="about">
+            <h2 class="about__title">Notre savoir-faire</h2>
+            <p class="about__text">Depuis près de 10 ans maintenant, nous partageons avec vous les meilleures recettes. Nos plats ont tous été
                 conçus, et affinés au fil des années et des goûts. Nous vous apportons le meilleur de l’Asie de l’Est en plein
                 coeur de Paris.<br>Chaque année, nous reprenons tous nos plats pour les améliorer, les modifier et qu’ils vous
                 plaisent toujours plus. Nous espérons que vous vous régalerez en dégustant nos plats.</p>
         </section>
     
-        <section>
-            <h2>Retrouvez-nous sur les réseaux sociaux</h2>
-            <div>
-                <img src="/assets/img/social/yummy-cat.jpg" alt="La photo d'un chat avec la main levée">
-                <img src="/assets/img/social/yummy-bowl.jpg" alt="La photo d'un bol de nouilles">
-                <img src="/assets/img/social/yummy-ravioli.jpg" alt="La photo de delicieux raviolis">
-            </div>
+        <section class="socialMedia">
+            <h2 class="socialMedia__title">Retrouvez-nous sur les réseaux sociaux</h2>
+            <div class="socialMedia__carousel">
+                <img class="socialMedia__img" src="/assets/img/social/yummy-cat.jpg" alt="La photo d'un chat avec la main levée">
+                <img  class="socialMedia__img" src="/assets/img/social/yummy-bowl.jpg" alt="La photo d'un bol de nouilles">
+                <img class="socialMedia__img" src="/assets/img/social/yummy-ravioli.jpg" alt="La photo de delicieux raviolis">
+            
     
-            <div>
-                <img src="/assets/img/social/yummy-chef.jpg" alt="La photo de notre chef en action">
-                <img src="/assets/img/social/yummy-pasta.jpg" alt="La photo de nos délicieuses pâtes">
-                <img src="/assets/img/social/yummy-beer.jpg" alt="La photo de nos savoureuses bieres">
+            
+                <img class="socialMedia__img" src="/assets/img/social/yummy-chef.jpg" alt="La photo de notre chef en action">
+                <img class="socialMedia__img" src="/assets/img/social/yummy-pasta.jpg" alt="La photo de nos délicieuses pâtes">
+                <img class="socialMedia__img" src="/assets/img/social/yummy-beer.jpg" alt="La photo de nos savoureuses bieres">
             </div>
         </section>
     
-        <section>
-            <h2>Contactez-nous</h2>
-            <p>
+        <section class="contactInfo">
+            <h2 class="contactInfo__title">Contactez-nous</h2>
+            <p class="contactInfo__text">
               Vous souhaitez nous poser une question, nous faire un feedback, ou tout simplement nous contacter ?<br>
               Écrivez-nous à <strong>yummy@noodles.fr</strong> ou appelez nous au <strong>01 13 86 23 42</strong>
             </p>
@@ -104,15 +105,15 @@
     </main>
 
     <footer>
-        <div>
+        <div class="footer">
             <a href="https://www.instagram.com/yummy_nouilles/">
-                <img src="/assets/img/icons/instagram.svg" alt="Logo Instagram">
+                <img class="footer__icon" src="/assets/img/icons/instagram.svg" alt="Logo Instagram">
             </a>
             <a href="https://www.facebook.com/yummy_nouilles/">
-                <img src="/assets/img/icons/facebook.svg" alt="Logo Facebook">
+                <img class="footer__icon" src="/assets/img/icons/facebook.svg" alt="Logo Facebook">
             </a>
             <a href="https://www.google.com/search?q=yummy+nouilles">
-                <img src="/assets/img/icons/maps.svg" alt="Logo Google Maps">
+                <img class="footer__icon" src="/assets/img/icons/maps.svg" alt="Logo Google Maps">
             </a>
         </div>
     </footer>

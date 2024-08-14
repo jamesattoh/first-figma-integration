@@ -11,47 +11,47 @@
 </head>
 
 <body>
-    <header>
-        <img src="..\assets\logo.svg" alt="logo Yummy Nouilles">
-        <nav>
-            <a href="index.html">Accueil</a>
-            <a href="menu.html">Menu</a>
-            <a href="contact.html">Contact</a>
+    <header class="appBar">
+        <img class="appBar__icon" src="..\assets\logo.svg" alt="logo Yummy Nouilles">
+        <nav class="appBar__nav">
+            <a class="appBar__navItem" href="index.html">Accueil</a>
+            <a class="appBar__navItem" href="menu.html">Menu</a>
+            <a class="appBar__navItem" href="contact.html">Contact</a>
         </nav>
     </header>
 
     <main>
 
-        <div>
-            <p>Commandez maintenant !</p>
-            <a href="contact.html">
+        <div class="redSpace">
+            <p class="redSpace__title">Commandez maintenant !</p>
+            <a class="cta" href="contact.html">
               Click & Collect
             </a>
         </div>
 
-        <section>
-            <h1>Menu</h1>
-            <p>Nos menus sont <span>communs</span> à tous nos restaurants</p>
-            <div>
-              <img src="/assets/logo.svg" alt="Logo Yummy Nouilles">
-                <div>
+        <section class="menu">
+            <h1 class="menu__title">Menu</h1>
+            <p class="menu__subtitle ">Nos menus sont <span style="color: var(--red-highlight);">communs</span> à tous nos restaurants</p>
+            <div class="menu__card ">
+              <img class="menu__icon" src="/assets/logo.svg" alt="Logo Yummy Nouilles">
+                <div class="menu__part" >
                     <h2>Entrées</h2>
-                    <p>
+                    <p class="menu__partDish">
                     <strong>Jiaozi faits maison végétariens</strong><br>
                     Raviolis fourrés au maïs et champignons
                     </p>
-                    <p>
+                    <p class="menu__partDish">
                     <strong>Tofu frit</strong><br>
                     Tofu frit à la taïwanaise
                     </p>
-                    <p>
+                    <p class="menu__partDish">
                     <strong>Xiaolongbao à la truffe</strong><br>
                     Délicats raviolis farcis à la viande
                     </p>
                 </div>
-                <div>
-                    <h2>Plats</h2>
-                    <p>
+                <div class="menu__part">
+                    <h2 class="menu__partTitle">Plats</h2>
+                    <p class="menu__partDish">
                     <strong>Biang biang mian végétariennes</strong><br>
                     Épaisses nouilles faites à la main accompagnées d’un bouillon
                     </p>
@@ -59,22 +59,22 @@
                     <strong>Soupe de nouilles au boeuf</strong><br>
                     Nouilles faites maison dans un bouillon légèrement relevé
                     </p>
-                    <p>
+                    <p class="menu__partDish">
                     <strong>Nouilles froides au sésame</strong><br>
                     Nouilles froides au poulet, sauce au sésame
                     </p>
                 </div>
-                <div>
-                    <h2>Desserts</h2>
-                    <p>
+                <div class="menu__part">
+                    <h2 class="menu__partTitle">Desserts</h2>
+                    <p class="menu__partDish">
                     <strong>Pudding au tofu</strong><br>
                     Tofu soyeux baignant dans un sirop au gingembre
                     </p>
                 </div>
 
-                <div>
-                    <h2>Boissons</h2>
-                    <p>
+                <div class="menu__part">
+                    <h2 class="menu__partTitle">Boissons</h2>
+                    <p class="menu__partDish">
                     <strong>Taïwan Beer</strong><br>
                     <strong>Bubble tea à la mûre</strong><br>
                     <strong>Thé Oolong</strong><br>
@@ -83,9 +83,9 @@
             </div>
         </section>
 
-        <section>
-            <h2>Contactez-nous</h2>
-            <p>
+        <section class="contactInfo">
+            <h2 class="contactInfo__title">Contactez-nous</h2>
+            <p class="contactInfo__text">
               Vous souhaitez nous poser une question, nous faire un feedback, ou tout simplement nous contacter ?<br>
               Écrivez-nous à <strong>yummy@noodles.fr</strong> ou appelez nous au <strong>01 13 86 23 42</strong>
             </p>
@@ -94,15 +94,15 @@
     </main>
     
     <footer>
-        <div>
+        <div class="footer">
             <a href="https://www.instagram.com/yummy_nouilles/">
-                <img src="/assets/img/icons/instagram.svg" alt="Logo Instagram">
+                <img class="footer__icon" src="/assets/img/icons/instagram.svg" alt="Logo Instagram">
             </a>
             <a href="https://www.facebook.com/yummy_nouilles/">
-                <img src="/assets/img/icons/facebook.svg" alt="Logo Facebook">
+                <img class="footer__icon" src="/assets/img/icons/facebook.svg" alt="Logo Facebook">
             </a>
             <a href="https://www.google.com/search?q=yummy+nouilles">
-                <img src="/assets/img/icons/maps.svg" alt="Logo Google Maps">
+                <img class="footer__icon" src="/assets/img/icons/maps.svg" alt="Logo Google Maps">
             </a>
         </div>
     </footer>
