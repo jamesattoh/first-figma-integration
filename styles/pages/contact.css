@@ -23,6 +23,7 @@
   .contact__asid {
     max-width: 100%;
     overflow: hidden;
+    border-radius: var(--value-radius-img);
 }
 
 @media (max-width: 768px) {

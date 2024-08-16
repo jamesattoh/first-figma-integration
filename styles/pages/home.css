@@ -49,6 +49,7 @@
     width: 19rem;
     height: 13.5rem;
     object-fit: cover;
+    border-radius: var(--value-radius-img);
   }
   
   .address__info {
@@ -98,6 +99,7 @@
     width: 15.5rem;
     height: 15.5rem;
     object-fit: cover;
+    border-radius: var(--value-radius-img);
   }
 
   /* Media Queries */

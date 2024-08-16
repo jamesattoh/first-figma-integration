@@ -1,6 +1,6 @@
 .cta {
     display: inline-block;
-    padding: 0.75rem 3rem 0.75rem 3rem;
+    padding: 0.9rem 3rem 0.75rem 3rem;
     background-color: var(--black);
     color: var(--white);
     font-family: var(--title-font);
@@ -9,6 +9,7 @@
     font-size: var(--title-font-size);
     line-height: var(--title-line-height);
     text-decoration: none;
+    border-radius: var(--value-radius-btn);
 }
 
 .cta:hover {
